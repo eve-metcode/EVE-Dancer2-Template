@@ -1,0 +1,17 @@
+{
+    "version": "0.0.5",
+    "configurations": [
+        {
+            "type": "perl",
+            "request": "launch",
+            "exec": "perl",
+            "execArgs": [],
+            "name": "Perl-Debug",
+            "root": "${workspaceRoot}/",
+            "program": "/home/tbe/perl5/bin/plackup",
+            "inc": [],
+            "args": ["--port","3000","bin/app.psgi"],
+            "stopOnEntry": true
+        }
+    ]
+}
